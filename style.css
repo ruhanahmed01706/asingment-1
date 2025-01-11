@@ -1,0 +1,418 @@
+/* Font awesome link */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    background:#f5f6fa;
+}
+
+
+/******************************************
+             shared style 
+******************************************/
+.hbtn:hover{
+    color: #fbc531;
+}
+
+/******************************************
+             Header style 
+******************************************/
+.bn-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 160px;
+}
+.bn-nav > h2{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+.bn-nav > button{
+    display: block;
+    padding: 12px 25px 12px 25px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border-radius: 15px;
+    
+}
+.bn-nav > button:hover{
+    color: white;
+    background: rgb(198, 228, 214);
+}
+
+/******************************************
+             Banner style 
+******************************************/
+.banner-section{
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 160px;
+    padding: 80px 100px;
+    
+}
+.banner-content{
+    width: 550px;
+    height: 326px;
+}
+.banner-img{
+    width: 474.03px;
+    height: 400px;
+}
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    margin: 16px 0 24px;
+}
+.banner-btn{
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.banner-btn:hover{
+    color: #f1c40f;
+}
+/******************************************
+             Pillar style 
+******************************************/
+.pillar-sec{
+    margin: 80px 160px;
+}
+.pillar-title{
+    margin-bottom: 32px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.pillars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pillar{
+    height: 244px;
+    width: 280px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.card-icon{
+    margin-bottom: 22px;
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.card-discriotion{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin:17px 0;
+    
+}
+/******************************************
+             vision style 
+******************************************/
+.vision-sec{
+    margin: 0 160px;
+    }
+.vision-title{
+    margin-bottom: 17px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.vision-discription{
+    margin-bottom: 28px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.vision{
+    width: 410.67px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 25px;
+}
+
+/******************************************
+            Shared btn style 
+******************************************/
+.green{
+    background: rgb(198, 228, 214);
+}
+.button-green{
+    background: rgb(9, 161, 92);
+}
+.bn:hover{
+    background:#7f8fa6;
+    color: #fbc531;
+}
+.orange{
+    background: rgb(247, 235, 207);
+}
+.button-orange{
+    background: rgb(255, 194, 57);
+}
+.button-sky{
+    background: rgb(84, 144, 245);
+}
+.btn{
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+/* dr section */
+.dr-sec{
+    background: url(assets/quote-bg.png), rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+.dr-pra{
+    padding: 27px 15px;
+}
+.dr-dis{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 24px;
+    text-align: left;
+}
+.dr-pra > h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.dr-idn{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+/******************************************
+            Recent News style 
+******************************************/
+.recent-sec{
+    margin: 0 160px;
+}
+.recent-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.recent-discriotion{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 0;
+
+}
+
+/* -------- Satelite style------- */
+.satelite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+    border-radius: 24px;
+    margin-bottom: 22px;
+
+}
+.satelite-img{
+    width: 408px;
+    height: 290px;
+    border-radius: 24px;
+}
+.radius{
+    border-radius: 24px;
+}
+.satelite-content{
+    width: 744px;
+height: 210px;
+}
+.satelite-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin:8px 0;
+}
+.time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5px 0 10px;
+}
+.satelight-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.satelight-btn{
+    padding: 12px 28px 12px 28px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.radius{
+    border-radius: 24px;
+}
+
+
+.donate-sec{
+    margin: 80px 160px;
+}
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.donate-pra{
+    margin: 15px 0;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 55px;
+}
+.prn-taka{
+    display: flex;
+    justify-content: space-between;
+}
+.prn-taka > h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+    background: white;
+}
+.prn-taka > h1:hover{
+    background: #4cd137;
+}
+.other-amount{
+    margin: 20px 0;
+    padding: 14px 0;
+    text-align: center;
+    background: white;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Subscribe{
+    margin: 0 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.Subscribe-content{
+    padding: 80px;
+    text-align: center;
+}
+.sub-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+.sub-dis{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 250px;
+}
+.sub-input{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin: 15px 0;
+    padding: 15px 230px 15px 55px ;
+
+}
+.Subscribe-content > p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
